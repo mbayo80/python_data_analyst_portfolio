@@ -1,1 +1,1 @@
-# python_data_analyst_portfolio
+# ITMG_python_Training
