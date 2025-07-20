@@ -8,11 +8,11 @@ print("My secret number lies between 1 and 95 ")
 guess = int(input("Please make guess:"))
 #Check if guess is not as secret_number
 while guess != secret_number:
-    #while guess is less tha secret_number
+    #while guess is less than secret_number
     if guess < secret_number:
         print("Your guess is too low")
     else:
         print("Your guess is too high")
     print("")# prints an empty line and begins the guessing again
-    guess = int(input("Try again: "))
+    guess = int(input("Enter a new guess: "))
 print(f"Congratulations! {secret_number} is your secret_number. ")
