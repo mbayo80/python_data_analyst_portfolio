@@ -5,7 +5,7 @@ secret_number = 45
 
 print("My secret number lies between 1 and 95 ")
 #prompt the user to guess a number
-guess = int(input("Please make guess:"))
+guess = int(input("Please make a guess:"))
 #Check if guess is not as secret_number
 while guess != secret_number:
     #while guess is less than secret_number
